@@ -1,0 +1,196 @@
+/* .navbar{
+    height: 8vh;
+    position: fixed;
+    background-color: rgb(233, 201, 153);
+    display: contents;
+    justify-content: space-around;
+     */
+
+
+.header {
+    width: 100%;
+    position: fixed;
+    padding: 0;
+    margin-top: -8vmin;
+}
+.nav {
+    background-color: rgb(233, 201, 153);
+    text-align: center;
+    height: 8vmin;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    vertical-align: middle;
+}
+
+.menu{
+    padding-right: 5vw;
+    width: 100vw;
+}
+
+.menu ul li {
+    display: inline-block;
+    padding: 2vw;
+}
+
+
+.navbarLogo{
+    margin-left: 5px;
+    font-size: 30px;
+    width: 40vw;
+    text-align: left;
+    padding-left: 2vw;
+}
+
+.navbar li{
+    text-decoration: none;
+}
+
+/* Slogan do site */
+.Slogan{
+    height: 92vh;
+    display: flex;
+    margin-top: 8vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: url(https://img.freepik.com/fotos-gratis/delicioso-pao-bagels-e-ovos-em-cima-da-mesa_144627-8667.jpg?w=826&t=st=1673653992~exp=1673654592~hmac=e36ef0a30585074c4079ab4c8350b87909811c56e78f2bf43924b95c7925fd4c);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-size: cover;
+    /* Efeito Parallax */
+    background-attachment: fixed;
+    box-shadow: inset -3em 3em 6em rgba(0, 0, 0, 0.5);
+    box-shadow: inset 3em 3em 6em rgba(0, 0, 0, 0.5);
+}
+
+/* Frases do Slogan */
+.fraseSlogan{
+    color:white;
+    margin-bottom: 10px;
+    text-shadow: 0.1em 0.1em 0.2em rgba(0,0,0, 0.6);
+}
+
+/* Título */
+.title{
+    color:white;
+    text-shadow: 0.1em 0.1em 0.2em rgba(0,0,0, 0.6);
+    font-family: 'Great Vibes', cursive;
+    font-size: 7vmax;
+    text-align: center;
+    animation: titulo normal 3.6s;
+}
+
+/* Animação do título */
+@keyframes titulo{
+    from{
+        color: transparent;
+        font-size: 0em;
+    }
+    to{
+        color:white;
+        font-size: normal;
+    }
+}
+
+/* Produtos exibidos abaixo do Slogan */
+.produtosSlogan{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    text-shadow: 0.1em 0.1em 0.2em rgba(0,0,0, 0.6);
+}
+
+
+/* Produtos do Slogan */
+.produtosSlogan p{
+    margin-top: 10px;
+    margin-bottom: 16px;
+    font-weight: bold;
+}
+
+
+/* Main */
+.main{
+    background-color: beige;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+}
+
+/* Título da história da padaria */
+.historiapadaria h2{
+    text-align: center;
+}
+
+/* Texto da história da padaria */
+.historiapadaria p{
+    padding-top: 5vh;
+    text-align: center;
+}
+
+/* Produtos exibidos */
+.Produtos{
+    padding-top: 10vh;
+}
+
+/* Título dos produtos */
+.titleProdutos, .titleClientes, .titleMotivo{
+    margin-left: 5vw;
+    margin-top: 5vw;
+    margin-bottom: 5vw;
+}
+
+/* Corpo dos produtos */
+.bodyProdutos{
+    display: flex;
+    justify-content: center;
+}
+
+/* Imagem dos produtos */
+.bodyProdutos img{
+    width: 20vw;
+    margin: 2vw;
+    border-radius: 50px;
+    box-shadow: 0.1em 0.1em 0.9em rgba(0,0,0, 0.6);
+}
+
+/* Imagens dos produtos quando há hover */
+.bodyProdutos img:hover{
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+
+.Clientes{
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+.Motivo{
+    width: 90vw;
+    display: block;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    padding: 0;
+}
+
+.Motivo h3{
+    padding-bottom: 1vh;
+    padding-top: 3vh;
+}
+
+.Motivo p{
+    text-align: justify;
+}
+
+/* Rodapé do site */
+.rodape{
+    background-color: rgb(233, 201, 153);
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    text-align: center;
+}
+
